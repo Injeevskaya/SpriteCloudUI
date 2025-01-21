@@ -53,11 +53,6 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-  reporter: [
-  ['list'], // You can combine multiple reporters
-  ['playwright-ctrf-json-reporter', {}]
-],
-
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
