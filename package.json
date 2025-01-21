@@ -1,0 +1,14 @@
+{
+  "name": "ui_tests",
+  "version": "1.0.0",
+  "description": "Installing Playwright - run the command `npm init playwright@latest`",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  }
+}
