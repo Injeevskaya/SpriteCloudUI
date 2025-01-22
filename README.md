@@ -5,7 +5,8 @@ This project is a test automation solution for the Sprite Cloud assignment, focu
 
 ## Why Playwright
 
-> 
+> quoting from
+
 The origins of Playwright come from Puppeteer, a tool that I will be getting into next, and it makes use of many of the same API methods to interact with browsers and operate. Like Cypress, it is also a node.JS-based tool and therefore can also interact with elements of the site itself, rather than just purely acting as a client against the browser. It also operates on a WebSocket protocol as opposed to a traditional HTTP protocol that traditional tools like Selenium have used in the past. 
 
 The biggest differentiating point of Playwright is its cross-browser compatibility. It can drive Chromium, WebKit (the browser engine for Safari), and Firefox. Along with this, starting a new library allowed Playwright to improve ergonomics in ways that would break Puppeteer. For example, Playwright’s page.click waits for an element to be visible by default....
