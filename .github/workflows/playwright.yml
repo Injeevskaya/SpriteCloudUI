@@ -28,5 +28,10 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
-    - name: Publish Test Summary Results
+    - name: Publish Test Summary CTRF Results
       run: npx github-actions-ctrf ctrf/ctrf-report.json
+    - name: Upload Test Summary HTML Results
+      uses: actions/upload-artifact@v4
+      with:
+        name: html-report
+        path: playwright-report/index.html
