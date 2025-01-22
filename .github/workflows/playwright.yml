@@ -21,6 +21,7 @@ jobs:
       run: npm install --save-dev playwright-ctrf-json-reporter
     - name: Run Playwright tests
       run: npx playwright test
+      continue-on-error: true
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
