@@ -1,0 +1,566 @@
+{
+  "results": {
+    "tool": {
+      "name": "playwright"
+    },
+    "summary": {
+      "tests": 30,
+      "passed": 27,
+      "failed": 3,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1737546484436,
+      "stop": 1737546508316,
+      "suites": 0
+    },
+    "tests": [
+      {
+        "name": "testing valid username and password combination of standard_user, secret_sauce",
+        "status": "passed",
+        "duration": 1758,
+        "start": 1737546484,
+        "stop": 1737546486,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of locked_out_user, secret_sauce",
+        "status": "failed",
+        "duration": 6713,
+        "start": 1737546484,
+        "stop": 1737546491,
+        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/\"\u001b[22m\n",
+        "trace": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/\"\u001b[22m\n\n    at /Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts:24:32",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of performance_glitch_user, secret_sauce",
+        "status": "passed",
+        "duration": 6750,
+        "start": 1737546484,
+        "stop": 1737546491,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of error_user, secret_sauce",
+        "status": "passed",
+        "duration": 1739,
+        "start": 1737546484,
+        "stop": 1737546486,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of standard_user1, secret_sauce",
+        "status": "passed",
+        "duration": 1432,
+        "start": 1737546486,
+        "stop": 1737546488,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of locked_out_user, secret_sauce123",
+        "status": "passed",
+        "duration": 1418,
+        "start": 1737546486,
+        "stop": 1737546488,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of problem_user897897, secret_sauce45654",
+        "status": "passed",
+        "duration": 1395,
+        "start": 1737546488,
+        "stop": 1737546489,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of , ",
+        "status": "passed",
+        "duration": 1390,
+        "start": 1737546488,
+        "stop": 1737546489,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of , secret_sauce45654",
+        "status": "passed",
+        "duration": 1377,
+        "start": 1737546489,
+        "stop": 1737546490,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of test_user, ",
+        "status": "passed",
+        "duration": 1376,
+        "start": 1737546489,
+        "stop": 1737546490,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "chromium > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of standard_user, secret_sauce",
+        "status": "passed",
+        "duration": 2269,
+        "start": 1737546491,
+        "stop": 1737546493,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of locked_out_user, secret_sauce",
+        "status": "failed",
+        "duration": 7300,
+        "start": 1737546491,
+        "stop": 1737546498,
+        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/\"\u001b[22m\n",
+        "trace": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/\"\u001b[22m\n\n    at /Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts:24:32",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of performance_glitch_user, secret_sauce",
+        "status": "passed",
+        "duration": 7085,
+        "start": 1737546491,
+        "stop": 1737546498,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of error_user, secret_sauce",
+        "status": "passed",
+        "duration": 2245,
+        "start": 1737546491,
+        "stop": 1737546494,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of standard_user1, secret_sauce",
+        "status": "passed",
+        "duration": 1632,
+        "start": 1737546494,
+        "stop": 1737546495,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of locked_out_user, secret_sauce123",
+        "status": "passed",
+        "duration": 1666,
+        "start": 1737546494,
+        "stop": 1737546496,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of problem_user897897, secret_sauce45654",
+        "status": "passed",
+        "duration": 1664,
+        "start": 1737546495,
+        "stop": 1737546497,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of , ",
+        "status": "passed",
+        "duration": 1729,
+        "start": 1737546496,
+        "stop": 1737546498,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of , secret_sauce45654",
+        "status": "passed",
+        "duration": 1592,
+        "start": 1737546497,
+        "stop": 1737546499,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of test_user, ",
+        "status": "passed",
+        "duration": 1763,
+        "start": 1737546498,
+        "stop": 1737546499,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "firefox > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of standard_user, secret_sauce",
+        "status": "passed",
+        "duration": 2152,
+        "start": 1737546499,
+        "stop": 1737546501,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of locked_out_user, secret_sauce",
+        "status": "failed",
+        "duration": 7394,
+        "start": 1737546499,
+        "stop": 1737546506,
+        "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/\"\u001b[22m\n",
+        "trace": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"https://www.saucedemo.com/\u001b[7minventory.html\u001b[27m\"\u001b[39m\nReceived string: \u001b[31m\"https://www.saucedemo.com/\"\u001b[39m\nCall log:\n\u001b[2m  - expect.toHaveURL with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m    9 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://www.saucedemo.com/\"\u001b[22m\n\n    at /Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts:24:32",
+        "rawStatus": "failed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of performance_glitch_user, secret_sauce",
+        "status": "passed",
+        "duration": 7137,
+        "start": 1737546500,
+        "stop": 1737546507,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing valid username and password combination of error_user, secret_sauce",
+        "status": "passed",
+        "duration": 2089,
+        "start": 1737546500,
+        "stop": 1737546502,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Positive Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of standard_user1, secret_sauce",
+        "status": "passed",
+        "duration": 1851,
+        "start": 1737546501,
+        "stop": 1737546503,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of locked_out_user, secret_sauce123",
+        "status": "passed",
+        "duration": 1905,
+        "start": 1737546502,
+        "stop": 1737546504,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of problem_user897897, secret_sauce45654",
+        "status": "passed",
+        "duration": 1979,
+        "start": 1737546503,
+        "stop": 1737546505,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of , ",
+        "status": "passed",
+        "duration": 1907,
+        "start": 1737546504,
+        "stop": 1737546506,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of , secret_sauce45654",
+        "status": "passed",
+        "duration": 1933,
+        "start": 1737546505,
+        "stop": 1737546507,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      },
+      {
+        "name": "testing invalid username and password combination of test_user, ",
+        "status": "passed",
+        "duration": 1881,
+        "start": 1737546506,
+        "stop": 1737546508,
+        "rawStatus": "passed",
+        "tags": [],
+        "type": "e2e",
+        "filePath": "/Users/tatianainzheevskaya/personal/Education/Test_assinements/SpriteCloud/UI_tests/tests/login.spec.ts",
+        "retries": 0,
+        "flaky": false,
+        "steps": [],
+        "suite": "webkit > login.spec.ts > Negative Login Page Test Cases",
+        "extra": {
+          "annotations": []
+        }
+      }
+    ]
+  }
+}
