@@ -63,21 +63,18 @@ npx playwright test
 ## Test Reporting
 
 ### HTML Test Reports
-1. Test reports are located in the `playwright-report` directory of the project.
-2. To view the HTML report, run:  
+1. Test report are located in the `playwright-report` directory of the project. (In case of local setup)
+To view the HTML report, run in CLI:  
 
    ```bash
    npx playwright show-report
    ```
+2. GitHub Actions report:
+- ctrf report is attached as the **test summary** 
+- html report is attached as the **Artifacts** 
 
 ### GitHub Actions Workflow
 - Test execution results can also be found in the GitHub Actions workflow page:  
   [GitHub Workflow Page](https://github.com/Injeevskaya/SpriteCloudUI/actions/workflows/playwright.yml)
-
----
-
-## What is CTRF?
-
-**CTRF** (Common Test Reporting Format) is a universal JSON test report schema designed to address the lack of a standardized format for JSON test reports.  
 
 ---
