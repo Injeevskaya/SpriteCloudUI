@@ -12,7 +12,7 @@ test.describe('Positive Login Page Test Cases', () => {
     });
     [
         { username: 'standard_user', password: 'secret_sauce', },
-        //TO DO figure out if this tuple is correct: this tuple of parameters don't work as expected 
+        //To discuss TO DO figure out if this tuple is correct: this tuple of parameters don't work as expected 
         // that is why I've commented it to make the whole test works
         { username: 'locked_out_user', password: 'secret_sauce', }, 
         { username: 'performance_glitch_user', password: 'secret_sauce', },

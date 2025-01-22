@@ -1,26 +1,17 @@
 # Task 2 - Test Automation: UI Tests for Sprite Cloud Assignment
 
-This project is a test automation solution for the Sprite Cloud assignment, focused on UI tests using [Playwright](https://playwright.dev).
+This project is a test automation solution for the Sprite Cloud assignment, focused on UI tests using 
+[Playwright](https://playwright.dev).
+
+## Why Playwright
+
+The origins of Playwright come from Puppeteer, a tool that I will be getting into next, and it makes use of many of the same API methods to interact with browsers and operate. Like Cypress, it is also a node.JS-based tool and therefore can also interact with elements of the site itself, rather than just purely acting as a client against the browser. It also operates on a WebSocket protocol as opposed to a traditional HTTP protocol that traditional tools like Selenium have used in the past. 
+
+The biggest differentiating point of Playwright is its cross-browser compatibility. It can drive Chromium, WebKit (the browser engine for Safari), and Firefox. Along with this, starting a new library allowed Playwright to improve ergonomics in ways that would break Puppeteer. For example, Playwright’s page.click waits for an element to be visible by default.... 
+[see more here](https://www.linkedin.com/pulse/pros-cons-different-ui-automation-test-tools-playwright-craig-risi/)
 
 ---
 
-## Requirements
-
-### Test Cases
-- Write **3 UI web tests**.
-
-### Rules
-- Tests are executed on: [SauceDemo](https://www.saucedemo.com).
-
-### Deliverables
-- A clear `README.md` file for the automation solution.
-
-### Technology Stack
-- **Tool**: Playwright  
-- **Language**: Typescript  
-  > Restriction: No "Record and Play" tools allowed.
-
----
 
 ## Solution Overview
 
@@ -32,7 +23,9 @@ This solution provides a framework for UI test automation, including:
 - A **Page Object Model (POM) structure** created specifically for the login page.
 - Test coverage implemented using Playwright.
 
-> **Note:** During testing, it was observed that one of the accessible values in the tuple used for positive test cases did not work as expected. This issue has been documented and requires further investigation.
+> **Notes:** 
+> **POINTS to discuss** 
+1. During testing, it was observed that one of the accessible values in the tuple used for positive test cases did not work as expected. This issue has been documented and requires further investigation.
 
 ![Tests Report](image.png)
 ---
@@ -46,6 +39,19 @@ Run the following command to initialize Playwright:
 ```bash
 npm init playwright@latest
 ```
+
+### 2. Installation Test Report
+
+```bash
+npm install --save-dev playwright-ctrf-json-reporter
+```
+
+Add the reporter to your playwright.config.ts file:
+
+reporter: [
+  ['list'], // You can combine multiple reporters
+  ['playwright-ctrf-json-reporter', {}]
+],
 
 ---
 
